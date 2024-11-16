@@ -18,3 +18,5 @@ Go to https://vercel.com/, follow the usual steps to deploy. Everything should b
 
 ![image](https://github.com/user-attachments/assets/ba612ba7-9439-4374-9b5e-1051414a4b72)
 
+https://everything-is-an-experiment.com/2024/11/personal-monorepo-setup-with-vercel/ has a bit more info.
+
