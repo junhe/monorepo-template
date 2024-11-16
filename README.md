@@ -13,6 +13,11 @@ npm install
 npm run dev
 ```
 
+Open http://localhost:3000/. You should see the following, which are code and image from shared/.
+
+![image](https://github.com/user-attachments/assets/df9ee1c5-4ee6-4a45-a13d-d641e20f6c56)
+
+
 ## Deploy to Vercel
 Go to https://vercel.com/, follow the usual steps to deploy. Everything should be straightforward; but make sure the settings are as follows. Root directory should be `packages/project1`.
 
