@@ -16,7 +16,7 @@ npm run dev
 Open http://localhost:3000/. You should see the following, which are code and image from shared/.
 
 ![image](https://github.com/user-attachments/assets/df9ee1c5-4ee6-4a45-a13d-d641e20f6c56)
-<img src="[image_url](https://github.com/user-attachments/assets/df9ee1c5-4ee6-4a45-a13d-d641e20f6c56)" alt="Image description" style="width: 300px; height: auto;">
+<img src="https://github.com/user-attachments/assets/df9ee1c5-4ee6-4a45-a13d-d641e20f6c56" alt="Image description" style="width: 300px; height: auto;">
 
 
 ## Deploy to Vercel
