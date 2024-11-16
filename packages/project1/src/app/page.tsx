@@ -13,8 +13,16 @@ export default async function Home() {
     <HydrateClient>
       <main className="flex min-h-screen flex-col items-center justify-center bg-gradient-to-b from-[#2e026d] to-[#15162c] text-white">
         <div className="container flex flex-col items-center justify-center gap-12 px-4 py-16">
+          {/* Added for monorepo-template ====== Start */}
           <h1>Code From Shared</h1>
-          <h1>{greet()}</h1>
+          <p>{greet()}</p>
+          <h1>Image From Shared</h1>
+          <img 
+            src="/shared/website-template/static/images/logo-url.png" 
+            alt="Logo"
+            className="bg-white"
+          />
+          {/* Added for monorepo-template ====== End */}
 
           <h1 className="text-5xl font-extrabold tracking-tight sm:text-[5rem]">
             Create <span className="text-[hsl(280,100%,70%)]">T3</span> App

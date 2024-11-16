@@ -13,7 +13,11 @@
     "lint:fix": "next lint --fix",
     "preview": "next build && next start",
     "start": "next start",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "copy-shared": "rm -rf public/shared/website-template && mkdir -p public/shared/website-template && cp -r ../shared/website-template/static public/shared/website-template/",
+    "link-shared": "rm -rf public/shared/website-template && mkdir -p public/shared/website-template && ln -s ../../../../shared/website-template/static public/shared/website-template/static",
+    "predev": "npm run link-shared",
+    "prebuild": "npm run copy-shared"
   },
   "dependencies": {
     "@t3-oss/env-nextjs": "^0.10.1",

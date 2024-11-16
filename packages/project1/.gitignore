@@ -44,3 +44,6 @@ yarn-error.log*
 
 # idea files
 .idea
+
+# shared. Copied or linked from shared package. 
+public/shared/
