@@ -15,14 +15,14 @@ npm run dev
 
 Open http://localhost:3000/. You should see the following, which are code and image from shared/.
 
-![image](https://github.com/user-attachments/assets/df9ee1c5-4ee6-4a45-a13d-d641e20f6c56)
-<img src="https://github.com/user-attachments/assets/df9ee1c5-4ee6-4a45-a13d-d641e20f6c56" alt="Image description" style="width: 300px; height: auto;">
+<img src="https://github.com/user-attachments/assets/df9ee1c5-4ee6-4a45-a13d-d641e20f6c56" alt="Image description" style="width: 500px; height: auto;">
 
 
 ## Deploy to Vercel
 Go to https://vercel.com/, follow the usual steps to deploy. Everything should be straightforward; but make sure the settings are as follows. Root directory should be `packages/project1`.
 
-![image](https://github.com/user-attachments/assets/ba612ba7-9439-4374-9b5e-1051414a4b72)
+<img src="https://github.com/user-attachments/assets/ba612ba7-9439-4374-9b5e-1051414a4b72" alt="Image description" style="width: 500px; height: auto;">
+
 
 https://everything-is-an-experiment.com/2024/11/personal-monorepo-setup-with-vercel/ has a bit more info.
 
